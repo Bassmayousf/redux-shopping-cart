@@ -1,0 +1,46 @@
+body{
+  /* background-color: aliceblue; */
+  height: 100vh;
+}
+ .formContainer{
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid rgb(233, 230, 230) ;
+  --tw-bg-opacity : 1 ;
+  background-color: rgba(255 255 255/var(--tw-bg-opacity));
+  padding: 1rem;
+ }
+
+ .formtitle{
+  margin-top: .5rem;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(36, 35, 35);
+ }
+ .addProductinput{
+  width: 100%;
+  border-radius: 6px;
+  padding:.25rem .5rem;
+  border: 1px solid rgb(233, 230, 230);
+
+ }
+ .addProductinput:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+ }
+ .submit{
+  background-repeat: .375rem;
+  width: 100%;
+  border: 1px solid rgb(233, 230, 230);
+  margin-top: 1rem;
+  display: block;
+  border-radius: 6px;
+  padding: .5rem 1rem;
+ }
+.arrow{
+  -webkit-appearance: none; 
+  appearance:none ;
+  -moz-appearance: none;
+}
